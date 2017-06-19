@@ -131,9 +131,3 @@ if __name__ == '__main__':
             else:
                 print('Неизвестная команда попробуйте выбрать из списка')
 
-    # print(avg_mark(students_group[1].get('homework')))
-    # print(avg_mark_homework(students_group))
-    # print(avg_mark_exam(students_group,'female'))
-    # print(avg_mark_exam(students_group,exp=True))
-    # print(avg_mark_exam(students_group))
-    print(find_best(students_group))
