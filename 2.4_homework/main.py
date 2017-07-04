@@ -14,6 +14,7 @@ def find_dir(target_path, type):
             break
         else:
             os.chdir(os.path.dirname(os.getcwd()))
+
             continue
 
     for dir_s in migration_dir_list:
